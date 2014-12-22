@@ -9,5 +9,6 @@ go:
 
 script:
  - go test -v ./...
+ - sudo apt-get install bzr
  
  
