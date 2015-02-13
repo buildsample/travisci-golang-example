@@ -9,6 +9,9 @@ go:
 
 script:
  - go test -v ./...
+ 
+ archive: true
+ 
 # - sudo apt-get install bzr
 #build_image: shippable/minv2:beta
  
